@@ -4,4 +4,4 @@ ARG TEST=${TEST}
 
 RUN echo ${TEST}
 
-Add *.jar /deployments
+Add ${TEST} /deployments
