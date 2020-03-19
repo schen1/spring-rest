@@ -4,4 +4,4 @@ ARG TEST=${TEST}
 
 RUN echo ${TEST}
 
-Add ${TEST} /deployments
+Add $TEST /deployments
